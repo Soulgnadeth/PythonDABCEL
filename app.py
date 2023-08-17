@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the model from the file
-kmeans_model = joblib.load('KMeanClusteringML/bmx_kmean.joblib')
+kmeans_model = joblib.load('bmx_kmean.joblib')
 
 st.title('K-Means Clustering')
 
